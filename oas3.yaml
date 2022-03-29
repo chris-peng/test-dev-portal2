@@ -181,6 +181,24 @@ paths:
             schema:
               type: object
               properties: {}
+  /test:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-test
+    post:
+      summary: Add
+      operationId: post-test
+      responses:
+        '200':
+          description: OK
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
 components:
   schemas:
     User:
